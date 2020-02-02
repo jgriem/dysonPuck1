@@ -44,8 +44,8 @@ function sendIR(array) {
   <script src="https://www.puck-js.com/puck.js"></script>
   <table>
     <tr>
-     <td onclick="sendIR(commands.on)">ON</td>
-     <td onclick="sendIR(commands.off)">OFF</td>
+     <td onclick="sendIR(commands.on)">style="background-color:green">ON</td>
+     <td onclick="sendIR(commands.off)">style="background-color:red">OFF</td>
      <td onclick="sendIR(commands.oscilate)">Oscillate</td>
      <td onclick="sendIR(commands.oscilateOff)">Oscillate Off</td>
     </tr>
@@ -55,12 +55,7 @@ function sendIR(array) {
      <td onclick="sendIR(commands.fast)">Faster</td>
      <td></td>
     </tr>
-    <tr>
-     <td onclick="sendIR(commands.red)" style="background-color:red">RED</td>
-     <td onclick="sendIR(commands.green)" style="background-color:green">GREEN</td>
-     <td onclick="sendIR(commands.blue)" style="background-color:blue">BLUE</td>
-     <td onclick="sendIR(commands.white)">WHITE</td>
-    </tr>
+
   </table>
  </body>
 </html>
